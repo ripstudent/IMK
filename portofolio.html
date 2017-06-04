@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Front-end</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+   <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">Start Bootstrap</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-left">
+					<li>
+					<a href="#tampil">Artikel</a> 
+					</li>
+                    <li>
+                       <a href="index.html#feedback">Feedback</a>
+                    </li>
+				</ul>
+               
+
+			   <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">About Us</a>
+						
+                    </li>
+					<li>
+					<a href="" data-toggle="modal" data-target="#myModalRegister">Register</a> 
+					</li>
+                    <li>
+                       <a href="" data-toggle="modal" data-target="#myModal">Login</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+	
+	<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+	
+		<div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  <h4 class="modal-title">Login</h4>
+			</div>
+		
+			<div class="modal-body">
+				<form>
+					<div class="form-group">
+						<label for="email">Email:</label>
+						<input type="email" class="form-control" id="email" placeholder="Enter email">
+					</div>
+					
+					<div class="form-group">
+						<label for="pwd">Password:</label>
+						<input type="password" class="form-control" id="pwd" placeholder="Enter password">
+					</div>
+			
+					<div class="checkbox">
+						<label><input type="checkbox"> Remember me</label>
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+		</div>
+		
+		<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		</div>
+    </div>
+	</div>
+	<!-------------------------------------------- Modal Register ----------------------------------------------------->
+	
+	<!-- Modal -->
+	  <div class="modal fade" id="myModalRegister" role="dialog">
+		<div class="modal-dialog">
+	 
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  <h4 class="modal-title">Register</h4>
+			</div>
+			<div class="modal-body">
+		
+			<div class="form-group">
+				<label for="namaLengkap">Nama Lengkap:</label>
+				<input type="namaLengkap" class="form-control" id="namaLengkap" placeholder="Enter Nama Lengkap">
+			</div>	
+			
+			<div class="form-group">
+				<label for="username">Username:</label>
+				<input type="username" class="form-control" id="username" placeholder="Enter username">
+			</div>
+		
+			<div class="form-group">
+				<label for="pwd">Password:</label>
+				<input type="password" class="form-control" id="pwd" placeholder="Enter password">
+			</div>
+		
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="email" class="form-control" id="email" placeholder="Enter email">
+			</div>
+		
+			<div class="form-group">
+				<label for="notelp">No Telepon:</label>
+				<input type="notelp" class="form-control" id="notelp" placeholder="Enter telpon">
+			</div>
+			  
+		 </div>
+		<button type="submit" class="btn btn-primary my-btn">Submit</button>
+		<br>
+		<br>
+		<br>
+		</form>
+		
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal"Register>Close</button>
+			</div>
+		  </div>
+		  
+		</div>
+	  </div>
+    <!-- Page Content -->
+    <div class="container">
+	
+        <!-- Portfolio Item Heading -->
+        <div class="row">
+		
+            <div class="col-lg-12">
+                <h1 class="page-header">Artikel
+                    <small>Objek Wisata Jawa Timur</small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Item Row -->
+		<div id="tampil">
+        <div class="row">
+
+            <div class="col-md-8">
+                <img class="img-responsive" src="img/MusiumAngkut.jpg" alt="">
+            </div>
+
+            <div class="col-md-4">
+                <h3>Musium Angkut</h3>
+                <p align="justify">Museum Transportasi atau Museum Angkut merupakan museum alat transportasi yang pertama dan terbesar di Asia. Museum ini berada di Kota Batu, Malang.Museum angkut dibangun sebagai bentuk apresiasi atas perkembangan dunia transportasi di nusantara dan dunia.
+				<br>
+				Museum Angkut memiliki konsep wisata tematik, mengenai alat transportasi dari berbagai jaman. Museum Angkut ini memiliki area seluas tiga koma tujuh hektar dengan 525 koleksi jenis alat transportasi dari yang tradisional sampai yang modern. Disini Anda akan diajak berwisata edukasi. Museum Angkut sendiri terdiri dari berbagai zona dengan tema dan fungsi yang berbeda-beda.
+				</br>
+				
+				</p>
+                <h2>Zona yang ada pada Musium Angkut : </h2>
+                <ul>
+                    <li>Zona Hall Utama :</li>
+					<p align="justify">Area paling depan setelah memasuki pintu masuk. Di sini berisi pameran alat transportasi dari berbagai zaman dan tempat.</p>
+                </ul>
+            </div>
+			<div class="col-md-12">
+			<ul>
+			<li>Zona Edukasi</li>
+				<p align="justify">Zona dengan luas 900 meter persegi ini menampilkan sejarah alat transportasi dari masa ke masa, baik yang berada di Indonesia maupun di dunia dengan metode pembelajaran yang menyenangkan dan interaktif.</p>
+            <li>Zona Istana Buckingham</li>
+				<p align="justify">Di sini memamerkan koleksi mobil kuno dan mobil-mobil produksi Inggris yang digunakan oleh Ratu Elizabeth II. Di area ini Anda dapat bermain-main di taman bunga yang lokasinya ada di depan replika Buckingham Palace dan berfoto bersama patung Sang Ratu yang sedang duduk di singgasananya.</p>
+            <li>Zona Las Vegas</li>
+				<p align="justify">Zona yang bernuansa Amerika dengan hiasan Gerbang Las Vegas.</p>
+			<ul>
+			</div>
+        </div>
+        <!-- /.row -->
+		</div>
+        <!-- Related Projects Row -->
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h3 class="page-header">Objek Wisata Lainnya :</h3>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#tampil">
+                    <img class="img-responsive portfolio-item" src="img/bromo.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#tampil">
+                    <img class="img-responsive portfolio-item" src="img/OmahKayu.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#tampil">
+                    <img class="img-responsive portfolio-item" src="img/PantaiBaleKambang.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#tampil">
+                    <img class="img-responsive portfolio-item" src="img/Paralayang.jpg" alt="">
+                </a>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <a  name="contact"></a>
+    
+	<div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Let's join our official account :</h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
+                        </li>
+						<li>
+                            <a href="index.html" class="btn btn-default btn-lg">BACK</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		  $('a[href*=#]').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+			&& location.hostname == this.hostname) {
+			  var $target = $(this.hash);
+			  $target = $target.length && $target
+			  || $('[name=' + this.hash.slice(1) +']');
+			  if ($target.length) {
+				var targetOffset = $target.offset().top;
+				$('html,body')
+				.animate({scrollTop: targetOffset}, 1000);
+			   return false;
+			  }
+			}
+		  });
+		});
+	</script>
+
+</body>
+
+</html>

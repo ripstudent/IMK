@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Front-end</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+	<link href="css/round-about.css" rel="stylesheet">
+	
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+<!-- Page Content -->
+    <div class="container">
+
+        <!-- Introduction Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">About Us
+                    <small>It's Nice to Meet You!</small>
+                </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo dolores ipsam aliquam inventore corrupti eveniet quisquam quod totam laudantium repudiandae obcaecati ea consectetur debitis velit facere nisi expedita vel?</p>
+            </div>
+        </div>
+
+        <!-- Team Members Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Our Team</h2>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <h3>John Smith
+                    <small>Job Title</small>
+                </h3>
+                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <h3>John Smith
+                    <small>Job Title</small>
+                </h3>
+                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <h3>John Smith
+                    <small>Job Title</small>
+                </h3>
+                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <h3>John Smith
+                    <small>Job Title</small>
+                </h3>
+                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <h3>John Smith
+                    <small>Job Title</small>
+                </h3>
+                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <h3>John Smith
+                    <small>Job Title</small>
+                </h3>
+                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+            </div>
+        </div>
+
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Let's join our official account :</strong>
+					<br>
+                    <br>
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		  $('a[href*=#]').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+			&& location.hostname == this.hostname) {
+			  var $target = $(this.hash);
+			  $target = $target.length && $target
+			  || $('[name=' + this.hash.slice(1) +']');
+			  if ($target.length) {
+				var targetOffset = $target.offset().top;
+				$('html,body')
+				.animate({scrollTop: targetOffset}, 1000);
+			   return false;
+			  }
+			}
+		  });
+		});
+	</script>
+
+</body>
+
+</html>
