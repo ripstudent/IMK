@@ -3271,7 +3271,7 @@ a.badge: hover{
 		font-size: 63px
 	}
 }.thumbnail{
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	display: block;padding: 4px;margin-bottom: 20px;line-height: 1.42857143;background-color: #fff;border: 1pxsolid#ddd;border-radius: 4px;-webkit-transition: border.2sease-in-out;-o-transition: border.2sease-in-out;transition: border.2sease-in-out
+	display: block;padding: 4px;margin-bottom: 20px;line-height: 1.42857143;background-color: #fff;border: 1pxsolid#ddd;border-radius: 4px;-webkit-transition: border.2sease-in-out;-o-transition: border.2sease-in-out;transition: border.2sease-in-out
 }.thumbnaila>img,
 .thumbnail>img{
 	margin-right: auto;margin-left: auto
@@ -4711,4 +4711,10 @@ button.list-group-item-danger.active: hover{
   color: #000;
   transition: background-color 0.3s ease-in,
               color 0.3s ease-in;
+}
+.shadow{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bordered{
+	 border: 1px solid black;
 }
